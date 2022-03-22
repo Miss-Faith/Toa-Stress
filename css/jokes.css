@@ -38,7 +38,7 @@ button {
   outline: none;
   padding: 10px 16px;
   text-align: center;
-  transition: all .15s;
+  transition: all .5s ease-in-out;
 }
 
 button:hover {
