@@ -51,7 +51,7 @@ nav ul li a:hover {
 /* Carousel Section */
 
 .carousel-item {
-    height: 95vh;
+    height: 90vh;
     min-height: 300px;
     background: no-repeat scroll center scroll;
     -webkit-background-size: cover;
@@ -101,4 +101,11 @@ nav ul li a:hover {
     padding: 1.5rem 2rem;
     font-size: 1rem;
     font-weight: bold;
+}
+
+.btn-label {
+    position: relative;
+    display: inline-block;
+    padding: 6px 8px;
+    border-radius: 3px 0 0 3px;
 }
