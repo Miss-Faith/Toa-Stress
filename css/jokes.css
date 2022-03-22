@@ -10,7 +10,6 @@ body{
 .joke-item{
   width: 50%;
   height: 40%;
-  padding: 20px;
   box-shadow:
        inset 0 -1.5em 3em rgba(0,0,0,0.2),
              0 0  0 2px rgb(255,255,255),
@@ -19,4 +18,9 @@ body{
 }
 h3{
   opacity: 0.5;
+}
+#joke-text{
+  margin: auto;
+  width: 90%;
+  height: 40%;
 }
