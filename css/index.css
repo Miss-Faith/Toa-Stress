@@ -77,12 +77,21 @@ nav ul li a:hover {
 }
 
 .carousel-caption h5 {
-    font-size: 85px;
+    font-size: 80px;
     font-weight: 600;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .slider-btn {
     margin-top: 35px;
+}
+
+.btn-space {
+    margin-right: 55px;
 }
 
 .slider-btn .btn {
