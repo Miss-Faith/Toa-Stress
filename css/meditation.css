@@ -14,7 +14,7 @@ body {
 p {
   color: white;
   position: absolute;
-  left: 22vh;
+  left: 20vh;
   top:22vh;
 }
 
@@ -23,7 +23,7 @@ p {
   width: 4.4vh;
   height: 4.4vh;
   position: absolute;
-  top:26vh;
+  top: 26vh;
 }
 
 .circle-inner {
