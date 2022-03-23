@@ -8,7 +8,7 @@
 }
 
 #particles-js {
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("/images/toa-carousel1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/toa-carousel1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -64,18 +64,18 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-   color:#14bedc ; 
+    color: #14bedc;
 }
 
 /* Row and col styling */
- 
+
 .row {
     display: flex;
     height: 88%;
     align-items: center;
 }
 
-.col{
+.col {
     flex-basis: 50%;
 }
 
@@ -113,7 +113,8 @@ p {
     transition: transform 0.5s;
 }
 
-.card h5,p {
+.card h5,
+p {
     margin-top: 17px;
 }
 
@@ -128,19 +129,19 @@ h5 {
 
 
 .card1 {
-    background:#14bedc ;
+    background: #14bedc;
 }
 
 .card2 {
-    background:#14bedc ;
+    background: #14bedc;
 }
 
 .card3 {
-    background:#14bedc ;
+    background: #14bedc;
 }
 
 .card4 {
-    background:#14bedc ;
+    background: #14bedc;
 }
 
 .card:hover {
@@ -165,5 +166,5 @@ button {
 }
 
 button:hover {
-    background-color:crimson; 
+    background-color: crimson;
 }
