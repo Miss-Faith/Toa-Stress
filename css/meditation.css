@@ -2,21 +2,25 @@ body {
   background-image: url("../images/med-background1.jpg");
   background-size: cover;
   background-position: top;
-  width: 100%;
+  width: 100vw;
+  height: auto;
 }
 
 p {
   color: white;
 }
 
-.circle-outer {
-  border:2px solid;
-  width:300px;
-  height:300px;
-}
-
 .circle-inner {
-  border:2px solid;
-  width:200px;
-  height:200px;
+  background-color: rgba(1,15,28,0.5);
+  width: 50vh;
+  height: 50vh;
+  position: absolute;
+  top: 35vh;
+}
+.circle-outer {
+  background-color: rgba(1,15,28,0.5);
+  width: 56vh;
+  height: 56vh;
+  position: absolute;
+  top: 32vh;
 }
