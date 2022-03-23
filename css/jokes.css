@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body{
-  overflow: hidden;
+  overflow-x: hidden;
 }
 #particles-js{ 
   position:absolute; 
@@ -14,6 +14,10 @@ body{
   background-size: cover; 
   background-position: 50% 50%;  */
 }
+@keyframes slide {
+  0% {transform: translateX(25px); }  
+  100% {transform: translateX(10px); } 
+}
 #arrow-container{
   animation: slide 2s linear -2s infinite;
 }
@@ -23,10 +27,6 @@ body{
   border-top: 3px solid red;
   border-left: 3px solid black;
   transform: rotate(-45deg);
-}
-@keyframes slide {
-  0% {transform: translateX(25px); }  
-  100% {transform: translateX(10px); } 
 }
 .container{
   position: absolute; 
@@ -42,6 +42,16 @@ body{
              0 0  0 2px rgb(255,255,255),
              0.3em 0.3em 1em rgba(0,0,0,0.3);
  
+}
+#laugh-emoji{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+#laugh-emoji img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }
 h3{
   opacity: 0.5;
