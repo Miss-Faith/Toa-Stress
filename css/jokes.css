@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 *{
   box-sizing: border-box;
 }
 body{
   overflow-x: hidden;
+  font-family: "Lato",sans-serif;
 } 
 #particles-js{ 
   position:absolute; 
@@ -10,7 +12,7 @@ body{
   height: 100%;
 }
 @keyframes slide {
-  0% {transform: translateX(25px); }  
+  0% {transform: translateX(20px); }  
   100% {transform: translateX(10px); } 
 }
 #arrow-container{
@@ -24,6 +26,13 @@ body{
   border-top: 3px solid #036e63;
   border-left: 3px solid #036e63;
   transform: rotate(-45deg);
+}
+span{
+  font-size: 3rem;
+  color: #036e63;
+}
+#home-link{
+  text-decoration: none;
 }
 .container{
   display: inline-block;
@@ -61,12 +70,16 @@ h3{
 }
 #joke-text{
   margin: auto;
+  color: #036e63;
+  opacity: 0.8;
+  font-size: 1.3rem;
 }
 button {
-  background-color: rgb(0, 113, 197, 0.7);
+  clear: both;
+  background-color: rgb(3, 110, 99, 0.7);
   border-radius: 40px;
   border-style: none;
-  box-shadow: rgb(0, 113, 197) 0 -12px 6px inset;
+  box-shadow: rgb(3, 110, 99) 0 -12px 6px inset;
   color: #000000;
   cursor: pointer;
   display: inline-block;
@@ -74,15 +87,14 @@ button {
   font-weight: 700;
   margin: 0;
   outline: none;
-  padding: 10px 16px;
+  padding: 10px 23px;
   text-align: center;
   transition: all .5s ease-in-out;
 }
 
 button:hover {
-  background-color: rgb(0, 113, 197, 0.7);
-  box-shadow: rgb(0, 113, 197) 0 -6px 8px inset;
-  transform: scale(1.05);
+  background-color: rgb(3, 110, 99, 0.7);
+  box-shadow: rgb(3, 110, 99) 0 -6px 8px inset;
 }
 
 button:active {
