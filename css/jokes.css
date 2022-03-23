@@ -1,1 +1,141 @@
-.
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+  font-family: "Lato",sans-serif;
+} 
+#particles-js{ 
+  position:absolute; 
+  width: 100%; 
+  height: 100%;
+}
+@keyframes slide {
+  0% {transform: translateX(20px); }  
+  100% {transform: translateX(10px); } 
+}
+#arrow-container{
+  display: inline-block;
+  animation: slide 2s linear -2s infinite;
+}
+.arrow{
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  border-top: 3px solid #036e63;
+  border-left: 3px solid #036e63;
+  transform: rotate(-45deg);
+}
+span{
+  font-size: 3rem;
+  color: #036e63;
+}
+#home-link{
+  text-decoration: none;
+}
+.container{
+  display: inline-block;
+  position: absolute; 
+  top: 30%; 
+  left: 30%;
+}
+.joke-item{
+  background: #fff;
+  width: 50%;
+  height: 50%;
+  box-shadow:
+       inset 0 -1.0em 3em rgba(0,0,0,0.2),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+ 
+}
+@keyframes up {
+  0% {transform: translateY(25px); }  
+  100% {transform: translateY(10px); } 
+}
+#laugh-emoji{
+  width: 100px;
+  height: 100px;
+  float: left;
+  animation: up 1s linear -2s infinite;
+}
+#laugh-emoji img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+h3{
+  opacity: 0.5;
+}
+#joke-text{
+  margin: auto;
+  color: #036e63;
+  opacity: 0.8;
+  font-size: 1.3rem;
+}
+button {
+  clear: both;
+  background-color: rgb(3, 110, 99, 0.7);
+  border-radius: 40px;
+  border-style: none;
+  box-shadow: rgb(3, 110, 99) 0 -12px 6px inset;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  outline: none;
+  padding: 10px 23px;
+  text-align: center;
+  transition: all .5s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(3, 110, 99, 0.7);
+  box-shadow: rgb(3, 110, 99) 0 -6px 8px inset;
+}
+
+button:active {
+  transform: scale(1.025);
+}
+@media screen and (max-width: 576px) {
+  @keyframes up {
+    0% {transform: translateY(15px); }  
+    100% {transform: translateY(5px); } 
+  }
+  #laugh-emoji{
+    width: 50px;
+    height: 50px;
+    float: left;
+    animation: up 1s linear -2s infinite;
+  }
+  #laugh-emoji img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  .container{
+    position: absolute; 
+    top: 20%; 
+    left: 30%;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 576px) {
+  @keyframes up {
+    0% {transform: translateY(15px); }  
+    100% {transform: translateY(5px); } 
+  }
+  #laugh-emoji{
+    width: 75px;
+    height: 75px;
+    float: left;
+    animation: up 1s linear -2s infinite;
+  }
+  #laugh-emoji img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+  }
+}
