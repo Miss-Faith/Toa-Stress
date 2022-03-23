@@ -1,1 +1,6 @@
-. 
+body {
+  background-image: url("../images/med-background1.jpg");
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+}
