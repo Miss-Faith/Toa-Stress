@@ -2,10 +2,20 @@
   box-sizing: border-box;
 }
 body{
-  
+  overflow: hidden;
+}
+#particles-js{ 
+  position:absolute; 
+  width: 100%; 
+  height: 100%;
+  background-color: #b61924; 
+  background-image: url(""); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: 50% 50%; 
 }
 #arrow-container{
-  animation: slide 4s linear -2s infinite;
+  animation: slide 2s linear -2s infinite;
 }
 .arrow{
   width: 50px;
@@ -15,11 +25,13 @@ body{
   transform: rotate(-45deg);
 }
 @keyframes slide {
-  0% {opacity:0.2; transform: translateX(3vw); }  
-  100% {opacity:1; transform: translateX(0vw); } 
+  0% {opacity:0.2; transform: translateX(25px); }  
+  100% {opacity:1; transform: translateX(10px); } 
 }
-.row{
-  height:100vh;
+.container{
+  position: absolute; 
+  top: 40%; 
+  left: 30%;
 }
 .joke-item{
   width: 50%;
