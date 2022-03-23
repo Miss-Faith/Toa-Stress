@@ -8,10 +8,13 @@ body {
 
 p {
   color: white;
+  position: absolute;
+  left: 22vh;
+  top:22vh;
 }
 
 .circle-inner {
-  background-color: rgba(1,15,28,0.5);
+  background-color: rgba(1,15,28);
   width: 50vh;
   height: 50vh;
   position: absolute;
@@ -23,4 +26,15 @@ p {
   height: 56vh;
   position: absolute;
   top: 32vh;
+
+  background: conic-gradient(
+    rgb(74,152,176) 0%,
+    rgb(74,152,176) 40%,
+    rgb(255, 255, 255) 40%,
+    rgb(255, 255, 255) 60%,
+    rgb(3,127,146) 60%,
+    rgb(3,127,146) 100%,
+    rgb(239,200,202,0) 100%
+  );
+
 }
