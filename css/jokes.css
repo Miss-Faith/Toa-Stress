@@ -8,7 +8,7 @@ body{
   position:absolute; 
   width: 100%; 
   height: 100%;
-  background-color: #b61924; 
+  background: rgb(0, 0, 0, 0.3);
   background-image: url(""); 
   background-repeat: no-repeat; 
   background-size: cover; 
@@ -18,24 +18,25 @@ body{
   animation: slide 2s linear -2s infinite;
 }
 .arrow{
-  width: 50px;
-  height: 50px;
-  border-top: 3px solid black;
+  width: 30px;
+  height: 30px;
+  border-top: 3px solid red;
   border-left: 3px solid black;
   transform: rotate(-45deg);
 }
 @keyframes slide {
-  0% {opacity:0.2; transform: translateX(25px); }  
-  100% {opacity:1; transform: translateX(10px); } 
+  0% {transform: translateX(25px); }  
+  100% {transform: translateX(10px); } 
 }
 .container{
   position: absolute; 
-  top: 40%; 
+  top: 30%; 
   left: 30%;
 }
 .joke-item{
+  background: #fff;
   width: 50%;
-  height: 40%;
+  height: 50%;
   box-shadow:
        inset 0 -1.0em 3em rgba(0,0,0,0.2),
              0 0  0 2px rgb(255,255,255),
@@ -47,8 +48,8 @@ h3{
 }
 #joke-text{
   margin: auto;
-  width: 90%;
-  height: 40%;
+  width: 300px;
+  height: 150px;
 }
 button {
   background-color: rgb(0, 113, 197, 0.7);
