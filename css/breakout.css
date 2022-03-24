@@ -3,7 +3,7 @@
   }
   
   body {
-    background-color: #0095dd;
+    background-color: #5F4B8BFF;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +19,7 @@ h1 {
 }
   
 canvas {
-    background: #f0f0f0;
+    background: #E69A8DFF;
     display: block;
     border-radius: 5px;
 }
@@ -44,4 +44,27 @@ canvas {
 .btn:active {
     transform: scale(0.98);
 }
+
+.rules-btn {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
   
+.rules {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #333;
+    color: #fff;
+    min-height: 100vh;
+    width: 400px;
+    padding: 20px;
+    line-height: 1.5;
+    transform: translateX(-400px);
+    transition: transform 1s ease-in-out;
+}
+  
+.rules.show {
+    transform: translateX(0);
+}
