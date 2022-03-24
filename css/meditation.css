@@ -42,12 +42,10 @@ p {
 
 .pointer-container {
   position: absolute;
-  top: 10vh;
-  left: 50vh;
-  right: 50vh;
-  /* bottom: 100vh; */
-  width: 20vh;
-  height: 20vh;
+  top: -1vh;
+  left: 93vh;
+  width: 23vh;
+  height: 23vh;
   animation: rotate 8.0s linear forwards infinite;
   transform-origin: bottom center;
 }
