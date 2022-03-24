@@ -13,3 +13,13 @@
     margin: 0;
   }
   
+h1 {
+    font-size: 45px;
+    color: #fff;
+}
+  
+canvas {
+    background: #f0f0f0;
+    display: block;
+    border-radius: 5px;
+}
