@@ -10,7 +10,7 @@ let score = 0;
 //constants to show the brick row count and the brick column count
 const brickRowCount = 9;
 const brickColumnCount = 5;
-const delay = 500;
+const delay = 500;//the delay needed to reset the game
 
 //creating the ball,the size and visibility
 const ball = {
@@ -53,11 +53,11 @@ const bricks = [];
     }
   }
 
-  //a function for drawing the ball to the canvas
+//a function for drawing the ball to the canvas
 function drawBall() {
     ctx.beginPath();
     ctx.arc(ball.x, ball.y, ball.size, 0, Math.PI * 2);
-    ctx.fillStyle = ball.visible ? '#0095dd' : 'transparent';
+    ctx.fillStyle = ball.visible ? '#FFE77AFF' : 'transparent';
     ctx.fill();
     ctx.closePath();
 }
@@ -65,7 +65,7 @@ function drawBall() {
 function drawPaddle() {
     ctx.beginPath();
     ctx.rect(paddle.x, paddle.y, paddle.w, paddle.h);
-    ctx.fillStyle = paddle.visible ? '#0095dd' : 'transparent';
+    ctx.fillStyle = paddle.visible ? '#BA0020FF' : 'transparent';
     ctx.fill();
     ctx.closePath();
 }
@@ -80,7 +80,7 @@ function drawBricks() {
       column.forEach(brick => {
         ctx.beginPath();
         ctx.rect(brick.x, brick.y, brick.w, brick.h);
-        ctx.fillStyle = brick.visible ? '#0095dd' : 'transparent';
+        ctx.fillStyle = brick.visible ? '#435E55FF' : 'transparent';
         ctx.fill();
         ctx.closePath();
       });
@@ -205,7 +205,7 @@ function update() {
   }
   
   update();
-  
+
 //adding a keydown event
 function keyDown(e) {
     if (e.key === 'Right' || e.key === 'ArrowRight') {
