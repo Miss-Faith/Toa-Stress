@@ -1,1 +1,119 @@
-. 
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar {
+  background: rgba(0,0,0,0.4)
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 1.2vw;
+  margin-left: 2%;
+}
+
+#particles-js {
+  background-image: url("../images/med-background1.jpg");
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 100%;
+}
+
+.main-container {
+  transform: scale(1);
+  position: absolute;
+  top: 30%;
+}
+
+p {
+  color: white;
+  position: absolute;
+  text-align: center;
+  padding-left: 90px;
+  position: absolute;
+  top: 18vh;
+}
+
+.pointer-ball {
+  background-color: rgba(255,255,255,0.9);
+  width: 4.4vh;
+  height: 4.4vh;
+  position: absolute;
+  top: -10vh;
+}
+
+.pointer-container {
+  position: absolute;
+  top: -1vh;
+  left: 93vh;
+  width: 23vh;
+  height: 23vh;
+  animation: rotate 8.0s linear forwards infinite;
+  transform-origin: bottom center;
+}
+
+.circle-inner {
+  background-color: rgba(1,15,28);
+  width: 45vh;
+  height: 45vh;
+  position: absolute;
+}
+.circle-outer {
+  background-color: rgba(1,15,28,0.5);
+  width: 51vh;
+  height: 51vh;
+  position: absolute;
+  top: -3vh;
+
+  background: conic-gradient(
+    rgb(74,152,176) 0%,
+    rgb(74,152,176) 40%,
+    rgb(255, 255, 255) 40%,
+    rgb(255, 255, 255) 60%,
+    rgb(3,127,146) 60%,
+    rgb(3,127,146) 100%,
+    rgb(239,200,202,0) 100%
+  );
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-container.grow {
+  animation: grow 3s linear forwards;
+}
+
+@keyframes grow {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.main-container.shrink {
+  animation: shrink 3s linear forwards;
+}
+
+@keyframes shrink {
+  from {
+    transform: scale(1.2);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
