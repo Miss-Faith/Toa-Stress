@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Boostrap css File -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Favicon Icon Font Awesome -->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+  <!-- Local CSS file -->
+  <link rel="stylesheet" href="css/jokes.css">
+
+  <title>Toa Stress</title>
+
+</head>
+
+<body id="particles-js">
+
+  <div class="mt-5 ps-5" id="arrow-container">
+    <a class="arrow" href="index.html"></a>
+    <a class="ms-2" href="index.html" id="home-link"><span>Home</span></a>
+  </div>
+  
+
+  <!--Main page content-->
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="joke-item text-center p-3">
+          <h3>Try not to laugh!</h3>
+          <div id="laugh-emoji"><img src="images/laugh.png" alt="Laughing emoji"></div>
+          <p class="my-3 p-2" id="joke-text"></p>
+          <button id="get-joke">Get Joke</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!--Links to particles js files-->
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+  <!--Link to local Js file-->
+  <script src="js/jokes.js"></script>
+  <script src="js/jokes_api.js"></script>
+</body>
+</html>

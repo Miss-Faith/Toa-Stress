@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;400&family=Poppins&family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+#particles-js {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/toa-carousel1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    position: absolute;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+/* Navbar styling 2 */
+.navbar {
+    height: 17%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 75px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+nav ul li a {
+    transition: all 0.3s ease 0s;
+}
+
+nav ul li a:hover {
+    color: #14bedc;
+}
+
+/* Row and col styling */
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #14bedc;
+    font-size: 70px;
+}
+
+
+p {
+    color: #14bedc;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.main-text {
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.card {
+    width: 250px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 30px 15px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    transition: transform 0.5s;
+}
+
+.card h5,
+p {
+    margin-top: 17px;
+}
+
+h5 {
+    margin-top: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-shadow: 0 0 5px #999;
+}
+
+/* Card Styling */
+
+
+.card1 {
+    background: #14bedc;
+}
+
+.card2 {
+    background: #14bedc;
+}
+
+.card3 {
+    background: #14bedc;
+}
+
+.card4 {
+    background: #14bedc;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+button {
+    width: 80px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: crimson;
+}
