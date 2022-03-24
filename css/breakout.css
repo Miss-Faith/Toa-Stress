@@ -23,3 +23,25 @@ canvas {
     display: block;
     border-radius: 5px;
 }
+
+.btn {
+    cursor: pointer;
+    border: 0;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+  
+.btn:focus {
+    outline: 0;
+}
+  
+.btn:hover {
+  background: #222;
+}
+  
+.btn:active {
+    transform: scale(0.98);
+}
+  
