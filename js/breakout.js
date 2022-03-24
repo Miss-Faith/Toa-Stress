@@ -151,3 +151,27 @@ bricks.forEach(column => {
     showAllBricks();
     score = 0;
   }
+
+  //increasing the score when the conditions are met
+function increaseScore() {
+    score++;
+  
+    if (score % (brickRowCount * brickColumnCount) === 0) {
+  
+        ball.visible = false;
+        paddle.visible = false;
+  
+        //After 0.5 sec restart the game
+        setTimeout(function () {
+            showAllBricks();
+            score = 0;
+            paddle.x = canvas.width / 2 - 40;
+            paddle.y = canvas.height - 20;
+            ball.x = canvas.width / 2;
+            ball.y = canvas.height / 2;
+            ball.visible = true;
+            paddle.visible = true;
+        },delay)
+    }
+  }
+  
