@@ -175,3 +175,33 @@ function increaseScore() {
     }
   }
   
+  //showing all the bricks when the player looses
+function showAllBricks() {
+    bricks.forEach(column => {
+      column.forEach(brick => (brick.visible = true));
+    });
+  }
+  
+  // Drawing everything back to begin the game
+function draw() {
+    // clearing the canvas
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+  
+    drawBall();
+    drawPaddle();
+    drawScore();
+    drawBricks();
+  }
+
+  //updating the canvas drawings and animations for the game to begin
+function update() {
+    movePaddle();
+    moveBall();
+  
+    // Draw everything
+    draw();
+  
+    requestAnimationFrame(update);
+  }
+  
+  update();
