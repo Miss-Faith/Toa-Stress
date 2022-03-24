@@ -86,3 +86,18 @@ function drawBricks() {
       });
     });
   }
+
+  //moving the paddle on the canvas when played
+function movePaddle() {
+    paddle.x += paddle.dx;
+  
+    // detecting the walls of the canvas
+    if (paddle.x + paddle.w > canvas.width) {
+      paddle.x = canvas.width - paddle.w;
+    }
+    //checking the value of x(the width)
+    if (paddle.x < 0) {
+      paddle.x = 0;
+      }
+  }
+  
