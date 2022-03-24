@@ -61,5 +61,11 @@ function drawBall() {
     ctx.fill();
     ctx.closePath();
 }
-
-  
+//a function for drawing the bricks to the paddle on the canvas
+function drawPaddle() {
+    ctx.beginPath();
+    ctx.rect(paddle.x, paddle.y, paddle.w, paddle.h);
+    ctx.fillStyle = paddle.visible ? '#0095dd' : 'transparent';
+    ctx.fill();
+    ctx.closePath();
+}
