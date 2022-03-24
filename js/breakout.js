@@ -145,3 +145,9 @@ bricks.forEach(column => {
       }
     });
   });
+
+  //function for when the ball hits the bottom wall -Lose the game
+  if (ball.y + ball.size > canvas.height) {
+    showAllBricks();
+    score = 0;
+  }
