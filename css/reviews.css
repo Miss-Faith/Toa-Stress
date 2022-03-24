@@ -178,6 +178,18 @@ nav ul li a:hover {
     font-weight: 600;
 }
 
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.5);
+}
+
 
 /* Footer Section */
 
@@ -428,7 +440,7 @@ h6 {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #14bedc;
+    /* background-color: #14bedc; */
     color: white;
     cursor: pointer;
     padding: 15px;
