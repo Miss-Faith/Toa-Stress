@@ -1,12 +1,19 @@
 body {
-  /* background-image: url("../images/med-background1.jpg");
-  background-size: cover;
-  background-position: top; */
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 100vw;
   height: 100vh;
+}
+
+.navbar {
+  background: rgba(0,0,0,0.4)
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 1.2vw;
+  margin-left: 2%;
 }
 
 #particles-js {
