@@ -7,13 +7,20 @@ A stress Management web application.
 [Vincent Gichohi](https://github.com/VincentGichohi)
 ## Description
 **Toa Stress** is a web application that seeks to assist individuals with better stress and anxiety management practices, by leveraging technology and simple practices. Thus allowing for improved mental health, increased performance and a healthy work/study life balance. it features:  
-* Meditation page - Meditate in the app and listen to relaxing  music.
-* Break Out Game - Play game using the computer keyboard control keys.
-* Dad Jokes - Generate as many random jokes as the user deems fit for chilling and relaxation.
+* **Meditation page** - Meditate in the app and listen to relaxing  music.
+* **Break Out Game** - Play game using the computer keyboard control keys.
+* **Dad Jokes** - Generate as many random jokes as the user deems fit for chilling and relaxation.
 
 ## Site
 ### Landing page
 [Landing Page](https://miss-faith.github.io/Toa-stress/)
+![my image](images/landing-page.png)
+### Meditate page
+[Mediate Page](https://miss-faith.github.io/Toa-stress/meditation.html)
+![my image](images/meditate-page.png)
+### Dad Jokes page
+[Mediate Page](https://miss-faith.github.io/Toa-stress/jokes.html)
+![Dad Jokes](images/jokes-page.png)
 ### Setup Requirements
 The project does not require any installations. To view the site:
 * Have internet access on your electronic device
@@ -49,9 +56,9 @@ Include sample queries and their corresponding results.
 - Add breakout game to be functional in touch screen mobiles
 
 ## Contact information
-[Faith Mwangi](faith.mwangi@student.moringaschool.com)
-[Kelvin Mburu](mburuhkelvin@gmail.com)
-[Ann Kerubo](omaokerubo21@gmail.com)
+[Faith Mwangi](faith.mwangi@student.moringaschool.com) , 
+[Kelvin Mburu](mburuhkelvin@gmail.com) , 
+[Ann Kerubo](omaokerubo21@gmail.com) , 
 [Vincent Gichohi]()
 
 
