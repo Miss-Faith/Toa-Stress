@@ -7,29 +7,29 @@
     font-family: "Lato", sans-serif;
 }
 
+body {
+    height: auto;
+}
+
 #particles-js {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/toa-carousel1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    height: auto;
     width: 100%;
+    /* position: absolute; */
+    /* top: -20%; */
 }
 
-.container {
+.container-fluid {
+    height: 30%;
     position: absolute;
-    padding-left: 8%;
-    padding-right: 8%;
-    box-sizing: border-box;
+    top: 50%;
 }
+
 
 /* Navbar styling 2 */
-.navbar {
-    height: 17%;
-    padding: 25px;
-    display: flex;
-    align-items: center;
-}
 
 .logo {
     width: 75px;
@@ -42,37 +42,11 @@
     margin-left: 40px;
 }
 
-nav {
-    flex: 1;
-    text-align: right;
-}
-
-nav ul li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 60px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-}
-
-nav ul li a {
-    transition: all 0.3s ease 0s;
-}
-
-nav ul li a:hover {
-    color: #14bedc;
-}
-
 /* Row and col styling */
 
 .row {
-    display: flex;
-    height: 88%;
-    align-items: center;
+ padding-left: 10%;
+ padding-right: 10%;
 }
 
 .col {
@@ -81,7 +55,8 @@ nav ul li a:hover {
 
 h1 {
     color: #14bedc;
-    font-size: 70px;
+    font-size: 100px;
+    font-weight: 700;
 }
 
 
@@ -99,7 +74,7 @@ p {
 }
 
 .card {
-    width: 250px;
+    width: 160px;
     height: 150px;
     display: inline-block;
     border-radius: 10px;
