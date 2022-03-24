@@ -12,6 +12,7 @@ A stress Management web application.
 * **Dad Jokes** - Generate as many random jokes as the user deems fit for chilling and relaxation.
 
 ## Site
+[DEMO LINK](https://miss-faith.github.io/Toa-stress/)
 ### Landing page
 [Landing Page](https://miss-faith.github.io/Toa-stress/)
 ![my image](images/landing-page.png)
