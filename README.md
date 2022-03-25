@@ -12,18 +12,18 @@ A stress Management web application.
 * **Dad Jokes** - Generate as many random jokes as the user deems fit for chilling and relaxation.
 
 ## Site
-[DEMO LINK](https://miss-faith.github.io/Toa-stress/)
+[DEMO LINK](https://miss-faith.github.io/Toa-Stress/)
 ### Landing page
-[Landing Page](https://miss-faith.github.io/Toa-stress/)
+[Landing Page](https://miss-faith.github.io/Toa-Stress/)
 ![my image](images/landing-page.png)
 ### Meditate page
-[Mediate Page](https://miss-faith.github.io/Toa-stress/meditation.html)
+[Mediate Page](https://miss-faith.github.io/Toa-Stress/meditation.html)
 ![my image](images/meditate-page.png)
 ### Dad Jokes page
-[Mediate Page](https://miss-faith.github.io/Toa-stress/jokes.html)
+[Mediate Page](https://miss-faith.github.io/Toa-Stress/jokes.html)
 ![Dad Jokes](images/jokes-page.png)
 ### Break-Out game page
-[Mediate Page](https://miss-faith.github.io/Toa-stress/breakout.html)
+[Mediate Page](https://miss-faith.github.io/Toa-Stress/breakout.html)
 ![Dad Jokes](images/breakout-page.png)
 
 ## Setup Requirements
@@ -50,10 +50,10 @@ To fix a bug or enhance an existing module, follow these steps:
 * Push to the branch ('git push origin improve-feature')
 * Create a Pull Request
 ## Bug / Feature Request
-If you find a bug/error, kindly open an issue [here](https://github.com/miss-faith/Toa-stress/issues/new)
+If you find a bug/error, kindly open an issue [here](https://github.com/miss-faith/Toa-Stress/issues/new)
 Include your search query and the expected result.
 
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/miss-faith/Toa-stress/issues/new)
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/miss-faith/Toa-Stress/issues/new)
 Include sample queries and their corresponding results.
 ## To-Do
 - Connect with Spotify/Apple Music API for user selection music choice
