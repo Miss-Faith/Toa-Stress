@@ -49,8 +49,6 @@ p {
 
 .pointer-container {
   position: absolute;
-  top: -1vh;
-  left: 93vh;
   width: 23vh;
   height: 23vh;
   animation: rotate 8.0s linear forwards infinite;
@@ -80,6 +78,10 @@ p {
     rgb(239,200,202,0) 100%
   );
 }
+
+/* audio {
+    display: none;
+} */
 
 @keyframes rotate {
   from {

@@ -19,5 +19,4 @@ function breathAnimation () {
 
 setInterval(breathAnimation, totalTime);
 
-var myMusic= document.getElementById("music");
-myMusic.play();
+document.getElementById("playAudio").autoplay;
