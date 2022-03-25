@@ -5,6 +5,7 @@ let holdTime = (totalTime * 0.2);
 function breathAnimation () {
 
   $(".main-container").addClass("grow").removeClass("shrink");
+  $("p").addClass("grow").removeClass("shrink");
   $("#breath").text('Breath In!');
 
   setTimeout (function() {
@@ -13,10 +14,11 @@ function breathAnimation () {
     setTimeout (function() {
     $("#breath").text('Breath Out!');
     $(".main-container").removeClass("grow").addClass("shrink");
+    $("p").removeClass("grow").addClass("shrink");
     }, holdTime);
   }, breathTime);
 }
 
 setInterval(breathAnimation, totalTime);
 
-audio.play();
+document.getElementById("playAudio").autoplay;

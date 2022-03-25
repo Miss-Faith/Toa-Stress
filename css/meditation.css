@@ -1,19 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100&family=Inspiration&display=swap');
+
 body {
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 100vw;
   height: 100vh;
+  /* font-family: 'Arima Madurai', cursive; */
+  font-family: 'Inspiration', cursive;
+  font-weight:600;
+  font-size: 50px;
 }
 
 .navbar {
-  background: rgba(0,0,0,0.4)
+  background: rgba(0,0,0,0.2)
 }
 
 .navbar-brand {
   color: white;
   font-size: 1.2vw;
   margin-left: 2%;
+  font-size: 20px;
 }
 
 #particles-js {
@@ -32,11 +39,12 @@ body {
 
 p {
   color: white;
+  transform: scale(1);
   position: absolute;
   text-align: center;
-  padding-left: 90px;
+  padding-left: 20%;
   position: absolute;
-  top: 18vh;
+  top: 16vh;
 }
 
 .pointer-ball {
@@ -49,8 +57,6 @@ p {
 
 .pointer-container {
   position: absolute;
-  top: -1vh;
-  left: 93vh;
   width: 23vh;
   height: 23vh;
   animation: rotate 8.0s linear forwards infinite;
@@ -81,6 +87,11 @@ p {
   );
 }
 
+audio {
+    width: 200px;
+    color: rgba(1,15,28,0.5);
+}
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);
@@ -91,6 +102,10 @@ p {
 }
 
 .main-container.grow {
+  animation: grow 3s linear forwards;
+}
+
+.p.grow {
   animation: grow 3s linear forwards;
 }
 
