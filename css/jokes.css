@@ -22,20 +22,33 @@ body{
 }
 .arrow{
   display: inline-block;
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-top: 3px solid #036e63;
   border-left: 3px solid #036e63;
   transform: rotate(-45deg);
 }
-span{
-  font-size: 3rem;
-  color: #036e63;
-}
-#home-link{
+a{
   text-decoration: none;
 }
+a:hover{
+  text-decoration: underline;
+  text-decoration-color: #036e63;
+}
+span{
+  font-size: 2.5rem;
+  color: rgb(3, 110, 99);
+}
+.links{
+  float: right;
+}
+.other-links{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: rgb(3, 110, 99);
+}
 .container{
+  clear: both;
   display: inline-block;
   position: absolute; 
   top: 30%; 
@@ -119,7 +132,7 @@ button:active {
   }
   .container{
     position: absolute; 
-    top: 25%; 
+    top: 30%; 
     left: 30%;
   }
 }
