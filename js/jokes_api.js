@@ -6,7 +6,7 @@ getJoke();
 jokeButton.addEventListener("click", getJoke);
 
 function getJoke() {
-  fetch("http://icanhazdadjoke.com", {method: "GET", mode: 'cors',
+  fetch("https://icanhazdadjoke.com", {method: "GET", mode: 'cors',
     headers: {
       Accept: "application/json",
     }
